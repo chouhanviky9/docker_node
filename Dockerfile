@@ -4,7 +4,7 @@ COPY package.json .
 RUN npm install
 COPY . ./
 ENV PORT 2000
-EXPOSE $PORT
+EXPOSE 2000
 CMD [ "node", "index.js" ]
 
 
